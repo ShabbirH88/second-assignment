@@ -142,7 +142,8 @@ margin-top: 50px;}
  border: 1px solid green;
 }
 .containerpos{
-  margin: 0% 10%;
+  margin: 0% 10% 10% 10%;
+
   border: 1px solid white;
   
 }
@@ -177,10 +178,14 @@ background-color: #25084b;}
  }
 .boxfour{grid-column: span 2;
   border-radius: 20px;
-  background-color: #25084b;}
+  background-color: #25084b;
+  overflow: auto;
+}
 .boxfive{grid-column: span 1;
   border-radius: 20px;
-  background-color: #25084b;}
+  background-color: #25084b;
+  overflow: auto;
+ }
 
   .whyhd{
     color: white;
@@ -195,6 +200,7 @@ background-color: #25084b;}
     font-size: .8rem;
     font-weight: 200;
     margin-left: 5%;
+   
   }
   .boxone img{
     height:40px;
@@ -213,4 +219,20 @@ background-color: #25084b;}
    
     margin-left: 5%;
     margin-top: 20px;
+  }
+  .boxthree img, .boxfour img{
+    height:40px;
+   
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+
+
+
+  .featured{
+    background-color: #1A0B2E;
+  }
+  .host-about{
+    display: flex;
+    margin: 5%;
   }

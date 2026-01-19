@@ -18,7 +18,10 @@
 color: white;
 
 }
-
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ShabbirH88/second-assignment.git
+git push -u origin main
 .logohalf{
 background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8  );
 -webkit-background-clip: text;
@@ -39,16 +42,175 @@ color: white;
   border: none;
 
 }
+.bg-img{
+  position: absolute;
+  inset: 0;
+  border: 2px solid red;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 60% 50%;
+
+}
 .banner{
-  background: url("../assets/hero-bg.png");
-  height: 800px;
+
+  /*background: url("../assets/hero-bg.png");*/
+  min-height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  position: relative;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
 }
-.circle{
+.images {position: relative;
   width: 200px;
+  margin-top: 0;
+  border: 1px solid white;
 }
+.images img{
+  position: absolute;
+  left: 20%;
+  bottom: 0%;
+  border: 1px solid white;
+}
+.descrip{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+ 
+}
+.circle{width: 70%;}
 .microphone{
-  position:;
+  width: 20%;
 }
+
+.about{
+  background-color:#1A0B2E ;
+  max-height: 500px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;
+  align-items: center;
+  border: 5px solid red;
+ 
+  
+}
+.podcast{
+  width: 70%;
+  border: 1px solid green;
+ 
+  justify-items: center;
+}
+.podcast h1{
+  color: white;
+  
+}
+.podcast p{
+text-align: center;
+color: #FFFFFF;
+
+font-size: 16px;
+font-weight: 200;
+}
+.growth{ border: 1px solid green;
+display: flex;
+width: 70%;
+justify-content: space-between;
+margin-top: 50px;}
+.number{
+  color:#00FF88;
+ text-align: center;
+}
+.spec{
+  color: white;
+  text-align: center;
+  font-size: .5rem;
+  font-weight: 100;
+
+}
+.container{
+  background-color: #230E3D;
+ border: 1px solid green;
+}
+.containerpos{
+  margin: 0% 10%;
+  border: 1px solid white;
+  
+}
+.layout{
+  gap: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 150px);
+}
+.why h1{
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.layout box{
+ 
+  border: 1px solid red;
+}
+.boxone{
+  grid-row: span 2;
+  border-radius: 20px;
+  background-color: #25084b;
+}
+.boxtwo{grid-column: span 2;
+border-radius: 20px;
+background-color: #25084b;}
+.boxthree{grid-column: span 2;
+  border-radius: 20px;
+  background-color: #25084b;
+ }
+.boxfour{grid-column: span 2;
+  border-radius: 20px;
+  background-color: #25084b;}
+.boxfive{grid-column: span 1;
+  border-radius: 20px;
+  background-color: #25084b;}
+
+  .whyhd{
+    color: white;
+    margin-left: 5%;
+
+    font-weight: 600;
+    padding-top: 0px;
+    margin-bottom: 8px;
+  }
+  .whyp{margin-top: 2px;
+    color: white;
+    font-size: .8rem;
+    font-weight: 200;
+    margin-left: 5%;
+  }
+  .boxone img{
+    height:40px;
+   
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+  .boxtwo img{
+    height:40px;
+   
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+  .boxfive img{
+    height:30px;
+   
+    margin-left: 5%;
+    margin-top: 20px;
+  }

@@ -1,0 +1,54 @@
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  }
+  .section-one{
+    background-color:#412567 ;
+  }
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: center;
+
+}
+.logo{
+color: white;
+
+}
+
+.logohalf{
+background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8  );
+-webkit-background-clip: text;
+-webkit-text-fill-color:transparent;
+
+}
+.menu{
+  display: flex;
+ list-style: none;
+gap: 5%;
+color: white;
+}
+.Subscribe-btn{
+  background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8  );
+  width: 130px;
+  height: 44px;
+  border-radius: 45px;
+  border: none;
+
+}
+.banner{
+  background: url("../assets/hero-bg.png");
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.circle{
+  width: 200px;
+}
+.microphone{
+  position: absolute;
+}

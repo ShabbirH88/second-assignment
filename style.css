@@ -536,15 +536,6 @@ width: 110%;}
       display: block;
       cursor: pointer;
     }
-    .mobmenu{
-      position:absolute;
-      top: 60px;
-      right: 0;
-      background-color: #FFFFFF;
-      width: 200px;
-      display: none;
-      z-index: 100;
-    }
    
    
 

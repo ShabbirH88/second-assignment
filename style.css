@@ -18,10 +18,7 @@
 color: white;
 
 }
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ShabbirH88/second-assignment.git
-git push -u origin main
+
 .logohalf{
 background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8  );
 -webkit-background-clip: text;
@@ -232,7 +229,157 @@ background-color: #25084b;}
   .featured{
     background-color: #1A0B2E;
   }
-  .host-about{
-    display: flex;
-    margin: 5%;
+
+  .Featured-Epi h2{
+    color: white;
+    font-size: 3rem;
   }
+  .Featured-Epi{
+    display: flex;
+   justify-content: center;
+  }
+  .vid-sec{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    margin: 0% 10%;
+    gap: 5%;
+    
+   
+  }
+  .vid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 0;
+    background-color: #250D44;
+    border-radius: 20px;
+  
+ 
+  }
+  .vid iframe{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+
+  }
+  .vid p, h3{color: white;
+    margin-top: 4%;
+  }
+  .min{
+    display: flex;
+  align-items: center;
+  gap: 8px;
+ border: 1px solid red;
+ padding-left: 10px;
+
+  }
+  .min img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 0;
+  }
+  .vid h6{
+    color: #00FF88;
+    font-size: 1rem;
+    ;
+   
+    
+  }
+  .host-start h2{
+    color: white;
+    font-size: 3rem;
+  }
+  .host-start{display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .host-pic img{
+    width: 90%;
+    border: 2px solid green;
+   margin: 10% 0%;
+   height: 60%;
+  }
+  .host-pic{border: 2px solid white;
+align-content: center;
+width: 110%;}
+
+  .host-about img{
+    width: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    border: solid 1px red;
+    border-radius: 50%;
+    object-fit: contain;
+   
+  }
+  .host-about {
+    align-content: center;
+  }
+  .host-about h4{
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+  }
+  .host-about p{
+    color: white;
+  font-weight: 100;
+  font-size: 16px;
+}
+  .host-prof{
+    display: flex;
+    border: 1px solid red;
+    margin: 0 10%;
+    background-color: #250D44;
+    border-radius: 20px;
+
+  }
+  .footer {
+   
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: green;
+  }
+  
+  .footer-bg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .socio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   text-align: center;
+   
+  }
+  .socio-inner{
+    display: flex;
+  }
+  .socio-inner img{
+    width: 25px;
+    height: 25px;
+  }
+
+ 
+  @media (max-width:576px) {
+    .layout{display: flex;
+    flex-direction: column;}
+    .vid-sec{
+      display: flex;
+      flex-direction: column;
+    }
+    .vid{margin-bottom: 20px;}
+    .host-prof{display: flex;
+    flex-direction: column;}
+    .host-about{
+      text-align: center;
+    }
+    
+    
+   
+

@@ -40,40 +40,55 @@ color: white;
 
 }
 .bg-img{
-  position: absolute;
-  inset: 0;
-  border: 2px solid red;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 60% 50%;
+  position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: green;
+    height: 70vh;
+    
 
 }
 .banner{
 
   /*background: url("../assets/hero-bg.png");*/
-  min-height: 100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
- 
+  width: 100%;
+  overflow: hidden; 
+  border: 1px solid red;
+}
+.banner-stuff{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.two-img{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  border: 1px solid green;
 }
 .images {position: relative;
-  width: 200px;
+  width: 40%;
   margin-top: 0;
-  border: 1px solid white;
+  border: 5px solid green;
+  display: flex;
+  justify-content: center;
+
+ 
 }
-.images img{
+.circle{
+
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.microphone{
   position: absolute;
-  left: 20%;
-  bottom: 0%;
-  border: 1px solid white;
+  top: 50%;
+  left: 50%;
+  width: 40%; 
+  transform: translate(-50%, -50%);
 }
 .descrip{ 
   display: flex;
@@ -83,9 +98,55 @@ color: white;
   margin-top: 40px;
  
 }
-.circle{width: 70%;}
+.circle{width: 100%;}
 .microphone{
-  width: 20%;
+  width: 30%;
+}
+.tech {gap:;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+.tech h1{
+  color: #FFFFFF;
+  font-size:3rem ;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.tech {
+  font-weight: 200;
+}
+.button {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  color: black;
+}
+.btnone{
+  color:white ;
+  background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8  );
+  width: 160px;
+  height: 44px;
+  border-radius: 45px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 2%;
+}
+.btntwo{
+  color:#00FF88 ;
+  background-color: transparent;
+  width: 120px;
+  height: 44px;
+  border-radius: 45px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 3%;
+  border:solid 1px #00FF88;
+
 }
 
 .about{
@@ -232,7 +293,7 @@ background-color: #25084b;}
 
   .Featured-Epi h2{
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .Featured-Epi{
     display: flex;
@@ -289,7 +350,7 @@ background-color: #25084b;}
   }
   .host-start h2{
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .host-start{display: flex;
     align-content: center;
@@ -320,7 +381,7 @@ width: 110%;}
   }
   .host-about h4{
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 2%;
   }
   .host-about p{
@@ -334,6 +395,7 @@ width: 110%;}
     margin: 0 10%;
     background-color: #250D44;
     border-radius: 20px;
+    padding-bottom: 40px;
 
   }
   .footer {
@@ -342,6 +404,7 @@ width: 110%;}
     width: 100%;
     overflow: hidden;
     background-color: green;
+    
   }
   
   .footer-bg {
@@ -349,22 +412,45 @@ width: 110%;}
     height: auto;
     display: block;
   }
+  .footer-content{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  .techw h1{ 
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+  }
   .socio{
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 20px;
-   text-align: center;
-   
+    align-items: center;
+    gap: 30px;
   }
   .socio-inner{
     display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+
   }
   .socio-inner img{
     width: 25px;
     height: 25px;
   }
-
+  .copyright p{
+    color: white;
+    font-weight: 250;
+    display: flex;
+    justify-content: center;
+  }
  
   @media (max-width:576px) {
     .layout{display: flex;
@@ -379,7 +465,8 @@ width: 110%;}
     .host-about{
       text-align: center;
     }
-    
+   
     
    
 
+  }
